@@ -1,0 +1,12 @@
+{
+  "name": "pikafish-server-100",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "postinstall": "node scripts/download-engine.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
+}
